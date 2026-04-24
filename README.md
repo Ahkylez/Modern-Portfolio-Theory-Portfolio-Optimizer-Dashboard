@@ -1,7 +1,7 @@
 # MPT Optimizer
 
 ---
-A streamlit web app for simple portfolio optimization, including backtesting. This was my first finance project and introduced me to many financial math concepts, such as Efficent Frontier, Sharpe Ratio, Feasible set, and other general portfolio management terms. Working through the book "Mathematics for finance" by Marek Capinski and Tomasz Zastawniak, I learned how to impliment math concepts into python and the plethera of libraires that help with it. 
+A streamlit web app for simple portfolio optimization, including backtesting. This was my first finance project and introduced me to many financial math concepts, such as Efficent Frontier, Sharpe Ratio, Feasible set, and other general portfolio management terms. Working through the book "Mathematics for finance" by Marek Capinski and Tomasz Zastawniak, I learned how to implement math concepts into python and the plethera of libraires that help with it. 
 ## Features
 
 - **Stock Data Integration**  
