@@ -1,18 +1,16 @@
-# 📊 Simple Portfolio Optimizer
+# MPT Optimizer
 
-A **Streamlit web app** for interactive portfolio optimization and backtesting, built in Python.  
-This project demonstrates quantitative finance concepts (Minimum Variance Portfolio, Efficient Frontier, Sharpe Ratio maximization) with real stock data via the `yfinance` API.  
-
+A streamlit web app for simple portfolio optimization, including backtesting. This was my first finance project and introduced me to many financial math concepts, such as Efficent Frontier, Sharpe Ratio, Feasible set, and other general portfolio management terms. Working through the book "Mathematics for finance" by Marek Capinski and Tomasz Zastawniak, I learned how to impliment math concepts into python and the plethera of libraires that help with it. 
 ---
 
-## 🚀 Features
+## Features
 
 - **Stock Data Integration**  
   - Pulls historical stock price data from Yahoo Finance (`yfinance`).  
-  - Flexible ticker input (e.g., `AAPL NVDA MSFT`).  
+  - Flexible ticker input.  
 
 - **Portfolio Optimization**  
-  - Minimum Volatility Portfolio (MVP).  
+  - Minimum Volatility (SD) Portfolio (MVP).  
   - Maximum Sharpe Ratio Portfolio.  
   - Efficient Frontier calculation.  
   - Short-selling toggle for MVP.  
@@ -29,10 +27,9 @@ This project demonstrates quantitative finance concepts (Minimum Variance Portfo
 - **Backtesting**  
   - Out-of-sample performance test (starting at \$1).  
   - Compare MVP and Max Sharpe growth over time against market performance.  
-
 ---
 
-## 📷 Demo
+## Demo
 
 ### Portfolio Metrics
 - Annualized return & risk for MVP and Max Sharpe portfolios.  
@@ -48,7 +45,7 @@ This project demonstrates quantitative finance concepts (Minimum Variance Portfo
 
 ---
 
-## ⚙️ Tech Stack
+## Libraries
 
 - **Languages**: Python  
 - **Libraries**:  
